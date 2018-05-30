@@ -28,6 +28,7 @@
 
 ### Deleted
 * 删除App\Utils\Redis\Commands
+* 删除JobInterface
 
 ## [2.2.10]
 ### Checked
