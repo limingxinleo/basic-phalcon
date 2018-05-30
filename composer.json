@@ -23,7 +23,7 @@
         "limingxinleo/x-phalcon-dd": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
         "codeception/codeception": "^2.4",
-        "codeception/verify": "^1.0"
+        "codeception/verify": "^1.0|^0.4"
     },
     "scripts": {
         "post-create-project-cmd": [
