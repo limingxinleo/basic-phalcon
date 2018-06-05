@@ -59,7 +59,7 @@ class Handler
             $message = $ex->getMessage();
         } else {
             $this->errorLogger->error($msg);
-            if (env('APP_DEBUG', false)) {
+            if (di('config')->get('debug', false)) {
                 $message = $ex->getMessage();
             }
         }
