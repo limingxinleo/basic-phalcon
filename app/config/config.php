@@ -37,6 +37,8 @@ $config = new Config(
         |
         */
         'application' => [
+            'bizDir' => APP_PATH . '/biz/',
+            'commonDir' => APP_PATH . '/common/',
             'configDir' => APP_PATH . '/config/',
             'controllersDir' => APP_PATH . '/controllers/',
             'coreDir' => APP_PATH . '/core/',

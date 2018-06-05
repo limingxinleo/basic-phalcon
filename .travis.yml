@@ -51,7 +51,7 @@ install:
   - composer self-update
   - cd $TRAVIS_BUILD_DIR
   - composer install --prefer-dist --optimize-autoloader
-  - cp .env.example .env
+  - cp config.example.ini config.ini
   - php run
 
 before_script:
