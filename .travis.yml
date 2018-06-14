@@ -58,7 +58,7 @@ before_script:
   # 启动PHP
   - cd $TRAVIS_BUILD_DIR
   - php run server:service --daemonize
-  - php -S localhost:8080 -t public &> /dev/null &
+  - php server start &> /dev/null &
   - php run queue &> /dev/null &
 
 script:
