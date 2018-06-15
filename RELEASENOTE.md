@@ -10,6 +10,7 @@
 
 ### Changed
 * 修改MVC注入依赖时，兼容Swoole引擎
+* 修改master server pid默认值为0
 * 重写异常捕获Handler
 
 ### Fixed
