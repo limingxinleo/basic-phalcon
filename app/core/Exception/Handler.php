@@ -65,7 +65,6 @@ class Handler
         }
 
         Response::fail($code, $message)->send();
-        exit(255);
     }
 
     /**
@@ -83,6 +82,5 @@ class Handler
             $this->errorLogger->error($msg);
         }
         echo $msg;
-        exit(255);
     }
 }
