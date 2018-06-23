@@ -47,6 +47,7 @@ install:
   - phpenv config-add $TRAVIS_BUILD_DIR/tests/_ci/phalcon.ini
   # We use this file as our custom PHP config
   - phpenv config-add $TRAVIS_BUILD_DIR/tests/_ci/ci.ini
+  - phpenv config-rm xdebug.ini
   # 安装项目
   - composer self-update
   - cd $TRAVIS_BUILD_DIR
